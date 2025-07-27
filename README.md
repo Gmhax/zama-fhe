@@ -7,6 +7,9 @@ I regularly update this repository with detailed guides on technical tasks relat
 * **Windows**: Install Linux Ubuntu using WSL by following this [guide](https://github.com/0xmoei/Install-Linux-on-Windows)
 * **Codespace**: If you don't have VPS or Windows WSL, you can use [Github Codespace](https://github.com/codespaces), create a blank template and run your codes.
 
+## Use codespace
+https://github.com/codespaces
+
 ## Install Dependecies
 ```console
 # Packages:
@@ -42,13 +45,13 @@ curl -o hardhat.config.ts https://raw.githubusercontent.com/0xmoei/zama-fhe/refs
 ```
 
 Set Sepolia RPC:
-```
+```sh
 npx hardhat vars set SEPOLIA_RPC_URL
 ```
 * It prompts you to enter a Sepolia RPC, you can use `https://ethereum-sepolia-rpc.publicnode.com`
 
 Set Privatekey:
-```
+```sh
 npx hardhat vars set PRIVATE_KEY
 ```
 * It prompts you to enter a privatekey, enter without `0x` perfix.
